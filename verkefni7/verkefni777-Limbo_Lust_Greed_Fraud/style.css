@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+}
+header{
+    border: 12px; 
+    background-color: orange;
+    border-style: groove;
+}
+h3{
+    color: crimson;
+}
+nav{
+    text-align: center;
+    justify-content: space-evenly;
+}
+main{
+    text-align: center;
+     display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.LIMBO{
+    border: 10px;
+    background-color: green;
+    border-style: groove;
+    color: skyblue;
+}
+.LIMBO2{
+    background-color: skyblue;
+    color: snow;
+}
+.LUST{
+    border: 10px;
+    background-color: purple;
+    border-style: groove;
+    color: hotpink;
+}
+.LUST2{
+    background-color: orchid;
+    color: white;
+}
+.WRATH{
+    border: 10px;
+    background-color: blue;
+    border-style: groove;
+    color: aqua;
+}
+.WRATH2{
+    background-color: darkblue;
+    color: aqua;
+}
+em{
+    color: gold;
+}
+.blood{
+    color: black;
+}
+footer{
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    img{
+        display: none;
+    }       
+    main{
+        grid-template-columns: 1fr;
+    }
+}
+.bottom{
+    text-align: center;
+}
+
